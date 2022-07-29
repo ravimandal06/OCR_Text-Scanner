@@ -1,16 +1,13 @@
-# project
+# Flutter OCR 
 
-A new Flutter project.
+Optical character recognition is a process of conversion of typed images, printed text into the machine-encoded text, which means it will give us a text from images that contains the text.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project contains the code of OCR usage in flutter, It is defined in very easy way for newly flutter devs. Enjoy!!
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
+![image](https://user-images.githubusercontent.com/69504158/181813825-178c311e-c92e-44f3-91c8-0f5d4222ba5d.png)
