@@ -148,15 +148,17 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 
-  void getImage(ImageSource source) {
+  void getImage(ImageSource source) async {
     try {
-      final pickedImage = ImagePicker().pickImage(source: source);
+      final pickedImage = await ImagePicker().pickImage(source: source);
       if (pickedImage != null) {
+        textScanning = true;
         imageFile = pickedImage;
         setState(() {});
         getRecognisedText(pickedImage);
       }
     } catch (e) {
+      textScanning = false;
       imageFile = null;
       scannedText = "Error occured while scanning";
       setState(() {});
